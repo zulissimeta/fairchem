@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fairchem-core"
-description = "Machine learning models for use in catalysis as part of the Open Catalyst Project"
+description = "Machine learning models developed by the FAIR Chemistry Team"
 license = {text = "MIT License"}
 dynamic = ["version", "readme"]
 requires-python = ">=3.9, <3.13"
