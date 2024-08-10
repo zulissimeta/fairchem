@@ -1,6 +1,7 @@
 include-paths: 
   - src/fairchem/core/
-tag-prefix: fairchem_core
+tag-prefix: 'fairchem_core'
+tag-template: 'fairchem_core_v$RESOLVED_VERSION'
 name-template: 'fairchem_core_v$RESOLVED_VERSION'
 exclude-contributors: [github-actions] 
 categories:
@@ -23,14 +24,14 @@ categories:
 version-resolver:
   major:
     labels:
-      - 'major'
+      - major
   minor:
     labels:
-      - 'minor'
-      - 'dependencies'
+      - minor
+      - dependencies
   patch:
     labels:
-      - 'patch'
+      - patch
   default: patch
 template: |
   ## What’s Changed
