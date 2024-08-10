@@ -13,7 +13,7 @@
 
 </h4>
 
-`fairchem` is the [FAIR](https://ai.meta.com/research/) Chemistry's centralized repository of all its data, models, demos, and application efforts for materials science and quantum chemistry.
+`fairchem` is the [FAIR](https://ai.meta.com/research/) Chemistry team's centralized repository of all its data, models, demos, and application efforts for materials science and quantum chemistry.
 
 `fairchem` provides training and evaluation code for tasks and models that take arbitrary
 chemical structures as input to predict energies / forces / positions / stresses,
