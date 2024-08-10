@@ -1,5 +1,5 @@
 include-paths: 
-  - src/fairchem/core/
+  - packages/fairchem-core/
 tag-prefix: 'fairchem_core'
 tag-template: 'fairchem_core_v$RESOLVED_VERSION'
 name-template: 'fairchem_core_v$RESOLVED_VERSION'
